@@ -22,7 +22,7 @@ const speakers = [
     description:
       ' Cairo University Vice President for Community Service and Environment Development Affairs',
   },
-  /* {
+  /*  {
     image: '/src-image/salma.jpg',
     name: 'Salima Ikram',
     description:
@@ -33,7 +33,7 @@ const speakers = [
     name: 'Nagwa Sherif',
     description:
       'professor of Architectural Engineering at The American University in Cairo',
-  },*/
+  }, */
 ];
 
 speakers.forEach((speaker) => {

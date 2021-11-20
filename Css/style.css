@@ -39,6 +39,7 @@ body {
   margin-top: -71px;
   margin-left: 0.09em;
 }
+
 .header-con {
   display: flex;
   align-items: center;
@@ -90,7 +91,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
+  background-image:
+    linear-gradient(rgba(54, 45, 145, 0.3), rgba(5, 4, 46, 0.7)),
     url(/src-image/images3.jpeg);
   background-repeat: no-repeat;
   width: 100%;
@@ -334,19 +336,13 @@ a.visit:hover {
     height: auto;
   }
 
-  .feature-speak {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin-top: 44px;
-  }
-
   .home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(54, 45, 145, 0.3),
         rgba(5, 4, 46, 0.7)
       ),
@@ -391,12 +387,12 @@ a.visit:hover {
   }
 
   #imag-log {
-    width: 101%;
+    width: 66%;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: -20px;
-    margin-left: -44em;
+    margin-left: -4em;
   }
 
   .header-con {
@@ -426,16 +422,6 @@ a.visit:hover {
     letter-spacing: 1px;
     line-height: 25px;
     margin-right: 27em;
-  }
-
-  .main-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: start;
-    font-size: 2rem;
-    color: rgb(44, 44, 80);
   }
 
   .main-box {
@@ -508,13 +494,13 @@ a.visit:hover {
   .menu {
     display: flex;
     flex-direction: row;
-    gap: 85px;
     list-style: none;
     color: black;
-    margin-top: -38px;
-    font-size: 22px;
-    margin-left: 18em;
-    width: 31%;
+    margin-top: 22px;
+    font-size: 12px;
+    margin-left: 1em;
+    width: 102%;
+    gap: 99px;
   }
 
   .humb {
@@ -550,7 +536,7 @@ a.visit:hover {
   .feature-s {
     display: flex;
     flex-flow: wrap;
-    flex-direction: revert;
+    flex-direction: column;
     margin-top: 41px;
     margin-left: 34px;
     align-items: center;
@@ -622,7 +608,6 @@ a.visit:hover {
     display: flex;
     flex-direction: row;
     margin-left: 62em;
-    margin-top: 0em;
   }
 
   .more-i {
@@ -630,7 +615,7 @@ a.visit:hover {
     display: flex;
     flex-direction: row;
     margin-left: 62em;
-    margin-top: 0em;
+    margin-top: 0;
     width: 28%;
   }
 
@@ -656,7 +641,7 @@ a.visit:hover {
     display: flex;
     flex-direction: row;
     margin-left: 67em;
-    margin-top: 0em;
+    margin-top: 0;
   }
 
   .more-ii {
