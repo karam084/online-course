@@ -67,15 +67,16 @@ speakers2.forEach((speaker1) => {
   div.innerHTML += dynamicContent;
 });
 function showImage() {
-  var elems = document.getElementsByClassName('showHide');
-  for (var i = 0; i < elems.length; i++) {
+  const elems = document.getElementsByClassName('showHide');
+  for (let i = 0; i < elems.length; i += 1) {
     if (
-      elems[i].style.visibility == 'visible' ||
-      elems[i].style.visibility == ''
+      elems[i].style.visibility === 'visible'
+      || elems[i].style.visibility === ''
     ) {
       elems[i].style.visibility = 'hidden';
-    } else if (elems[i].style.visibility == 'hidden') {
+    } else if (elems[i].style.visibility === 'hidden') {
       elems[i].style.visibility = 'visible';
     }
   }
 }
+document.addEventListener('DOMContentLoaded', showImage);
