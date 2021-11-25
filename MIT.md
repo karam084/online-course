@@ -1,4 +1,4 @@
-## Copyright 2021, [Cindy]
+## Copyright 2021, [https://www.behance.net/adagio07]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [Template 2-Mobile] and associated documentation files, to deal in the [Template 2-Mobile] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [Template 2-Mobile], and to permit persons to whom the [APP TYPE] is furnished to do so, subject to the following conditions:
 

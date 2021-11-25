@@ -1,4 +1,4 @@
-![](https://github.com/karam084/online-course-website)
+![](https://github.com/karam084/online-course)
 
 # Project Name
 
@@ -6,9 +6,7 @@ Online Course WebSite
 
 > One paragraph statement about the project.
 
-![screenshot](/home/)
-
-Additional description about the project and its features.
+![screenshot]()
 
 ## Built With
 
@@ -18,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/karam084/online-course-website)
+[Live Demo Link](github.com/karam084/online-course)
 
 ### Deployment
 
