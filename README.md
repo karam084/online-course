@@ -17,7 +17,7 @@ Online Course WebSite
 
 ## Live Demo
 
-[Live Demo Link](github.com/karam084/online-course)
+[Live Demo Link](https://karam084.github.io/online-course/)
 
 ### Video link about project
 
