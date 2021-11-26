@@ -1,13 +1,13 @@
 const speakers = [
   {
     name: 'Abdel Rahman',
-    image: '/src-image/drzekri.jpg',
+    image: './src-image/drzekri.jpg',
     text: ' Vice President for Reasearch and Postgraduates Affairs',
     description: 'ational Cancer Institute Verified email at nci.cu.edu.eg',
   },
   {
     name: 'Mohamed Samy ',
-    image: '/src-image/profa.jpg',
+    image: './src-image/profa.jpg',
     text: ' Cairo University Vice President for Community Service and Environment Development Affairs',
     description:
       'Doctor of Philosophy in Law from Faculty of Pharmacy, Cairo University, June 2000.',
@@ -34,14 +34,14 @@ speakers.forEach((speaker) => {
 
 const speakers2 = [
   {
-    image: '/src-image/salma.jpg',
+    image: './src-image/salma.jpg',
     name: 'Salima Ikram',
     text: 'Distinguished University Professor of Egyptology at The American University in Cairo',
     description:
       ' worked as an archaeologist in Turkey, Sudan, Greece and the United States',
   },
   {
-    image: '/src-image/nagw.jpg',
+    image: './src-image/nagw.jpg',
     name: 'Nagwa Sherif',
     text: 'Architectural Engineering at The American University in Cairo',
     description:
@@ -70,8 +70,8 @@ function showImage() {
   const elems = document.getElementsByClassName('showHide');
   for (let i = 0; i < elems.length; i += 1) {
     if (
-      elems[i].style.visibility === 'visible'
-      || elems[i].style.visibility === ''
+      elems[i].style.visibility === 'visible' ||
+      elems[i].style.visibility === ''
     ) {
       elems[i].style.visibility = 'hidden';
     } else if (elems[i].style.visibility === 'hidden') {
