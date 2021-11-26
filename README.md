@@ -19,7 +19,9 @@ Online Course WebSite
 
 [Live Demo Link](github.com/karam084/online-course)
 
-### Deployment
+### Video link about project
+
+(https://www.loom.com/share/32a0ee3361cd4f6dbad65f5b52496d5d)
 
 ## Authors
 
