@@ -17,11 +17,12 @@
   --third-color: #d3d3d3;
 }
 
-body {
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  width: 768px;
-  height: auto;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 15%;
+  justify-content: center;
 }
 
 .triangle {
@@ -35,14 +36,6 @@ body {
   z-index: 0;
 }
 
-.header-con {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-right: 40em;
-}
-
 li {
   list-style: none;
 }
@@ -51,26 +44,23 @@ li {
   display: flex;
   flex-direction: column;
   font-size: 44px;
-  font-weight: 800;
+  width: 13%;
 }
 
 .learn-more a {
-  font-size: 2rem;
-  padding: 46px 135px;
-  background-color: #dc3535d1;
+  font-size: 30px;
+  padding: 18px 93px;
+  background-color: rgba(220, 53, 53, 0.82);
   color: white;
-  font-weight: 600;
-  gap: 30px;
-  margin-left: 5px;
-  margin-top: 150px;
+  font-weight: 500;
+  margin-top: 52px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #myVideo {
-  display: flex;
-  background-size: cover;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -79,17 +69,9 @@ li {
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-repeat: no-repeat;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  font-weight: 900;
-  height: 48em;
-  margin-top: -6em;
+  height: 100%;
+  margin-top: -100px;
 }
 
 .welcome {
@@ -98,12 +80,14 @@ li {
   font-weight: 700;
   margin-left: 8em;
   color: #ec5242;
+  padding-top: 105px;
+  width: 51%;
 }
 
 .det {
   display: flex;
   flex-direction: column;
-  width: 78%;
+  width: 85%;
   margin-left: 37px;
   color: var(--second-color);
   align-items: center;
@@ -170,7 +154,6 @@ li {
   padding-bottom: 2px;
   width: 11%;
   margin-top: 5px;
-  margin-left: 7em;
 }
 
 .under-l {
@@ -180,33 +163,33 @@ li {
 .creative1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 35px;
   font-weight: 400;
   color: black;
-  width: 20em;
   margin-top: 91px;
 }
 
 .creative2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 18px;
   font-weight: 400;
   color: var(--first-color);
-  width: 25em;
+  width: 77%;
   text-align: center;
 }
 
 .logo-de {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 25px;
   font-weight: 400;
   color: black;
-  width: 33em;
+  width: 80%;
   height: 11em;
-  margin-top: 71px;
-  border: outset;
 }
 
 .date-t {
@@ -215,28 +198,26 @@ li {
   font-size: 14px;
   font-weight: 400;
   color: var(--first-color);
-  margin-left: 249px;
 }
 
 .det1 {
   display: flex;
   flex-direction: column;
-  width: 78%;
+  width: 83%;
   font-size: 23px;
   font-weight: 300;
   text-align: center;
-  margin-left: 5em;
 }
 
 .logo-image {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   font-size: 25px;
   font-weight: 400;
   color: black;
-  width: 9em;
-  margin-top: 71px;
-  margin-left: 163px;
+  width: 25%;
+  margin-top: 32px;
 }
 
 .title-l {
@@ -245,14 +226,13 @@ li {
   font-size: 25px;
   font-weight: 400;
   color: black;
-  width: 20em;
-  margin-top: -74px;
-  margin-left: 249px;
 }
 
 .past-summit {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 10px;
 }
 
@@ -269,19 +249,18 @@ li {
 .under-ll {
   border-bottom: 2px solid red;
   padding-bottom: 2px;
-  width: 11%;
+  width: 5%;
   margin-top: 5px;
-  margin-left: 1em;
 }
 
 .summit-img {
   display: flex;
   flex-direction: column;
+  text-align: center;
   position: relative;
   width: 40%;
   height: auto;
   align-items: center;
-  margin-left: 20em;
   margin-top: 26px;
   gap: 43px;
 }
@@ -289,17 +268,15 @@ li {
 .image-cai {
   display: flex;
   flex-direction: column;
-  width: 39em;
+  width: 30em;
   align-items: center;
-  margin-left: -16em;
 }
 
 .image-alx {
   display: flex;
   flex-direction: column;
-  width: 39em;
+  width: 30em;
   align-items: center;
-  margin-left: -16em;
 }
 
 .partner {
@@ -308,7 +285,6 @@ li {
   background-color: var(--first-color);
   margin-top: 5em;
   height: 15em;
-  width: 100%;
 }
 
 .partner1 {
@@ -316,9 +292,7 @@ li {
   color: hsl(240deg 7% 62%);
   flex-direction: column;
   text-align: center;
-  margin-left: 11em;
-  width: 30%;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 .omzilla {
@@ -339,9 +313,8 @@ li {
   font-size: 25px;
   flex-direction: row;
   text-align: center;
-  margin-left: 13em;
+  margin-left: 11em;
   margin-top: -61px;
-  width: 20%;
 }
 
 .never {
@@ -350,16 +323,14 @@ li {
   font-size: 25px;
   flex-direction: row;
   text-align: center;
-  margin-left: 22em;
+  margin-left: 19em;
   margin-top: -38px;
-  width: 20%;
 }
 
 .foot {
   display: flex;
   flex-direction: column;
-  margin-left: -18em;
-  margin-top: 5em;
+  align-items: end;
 }
 
 .logo-de1 {
@@ -386,7 +357,8 @@ li {
 
 .title-l1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
   font-size: 20px;
   font-weight: 400;
   color: black;
@@ -402,8 +374,8 @@ li {
   font-weight: 400;
   color: var(--first-color);
   margin-top: -58px;
-  margin-left: 532px;
-  width: 30%;
+  margin-left: 491px;
+  width: 26%;
 }
 
 .mobile-menu-items a {
@@ -437,13 +409,10 @@ li {
   display: block;
   position: absolute;
   opacity: 0.9;
-  height: 60%;
-  width: 43%;
   background-color: hsl(234, 100%, 69%);
   transform: translateX(0);
   transition: transform 0.35s ease-in-out;
-  margin-left: 0;
-  margin-top: 0;
+  margin-top: 26em;
 }
 
 .hide-menu {
@@ -480,11 +449,9 @@ li {
 
 .text-img {
   position: absolute;
-  left: 0;
   width: 100%;
-  top: 7em;
+  top: 4em;
   text-align: center;
-  margin-left: -8em;
   font-size: 20px;
   font-weight: 900;
   color: white;
@@ -493,10 +460,8 @@ li {
 .text-mo {
   position: absolute;
   left: 0;
-  width: 100%;
-  top: 11em;
+  top: 7em;
   text-align: center;
-  margin-left: -8em;
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -504,11 +469,9 @@ li {
 
 .text-img1 {
   position: absolute;
-  left: 0;
   width: 100%;
-  top: 29em;
+  top: 20em;
   text-align: center;
-  margin-left: -8em;
   font-size: 20px;
   font-weight: 900;
   color: white;
@@ -516,22 +479,21 @@ li {
 
 .text-mo1 {
   position: absolute;
-  left: 0;
-  width: 100%;
-  top: 39em;
+  top: 28em;
   text-align: center;
-  margin-left: -8em;
   font-size: 16px;
   font-weight: 500;
   color: white;
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    flex-wrap: wrap;
     width: 100%;
-    height: auto;
+    align-items: stretch;
   }
 
   #myVideo {
@@ -649,7 +611,6 @@ li {
     padding-bottom: 2px;
     width: 5%;
     margin-top: 4px;
-    margin-left: 16em;
   }
 
   .media_icon {
@@ -750,8 +711,6 @@ li {
     font-size: 14px;
     font-weight: 400;
     color: var(--first-color);
-    margin-top: -43px;
-    margin-left: 201px;
   }
 
   .logo-image {
@@ -761,8 +720,6 @@ li {
     font-weight: 400;
     color: black;
     width: 8em;
-    margin-top: 69px;
-    margin-left: 45px;
   }
 
   .title-l {
@@ -772,8 +729,6 @@ li {
     font-weight: 400;
     color: black;
     width: 20em;
-    margin-top: -74px;
-    margin-left: 84px;
   }
 
   .past-summit {
@@ -796,8 +751,6 @@ li {
     border-bottom: 2px solid red;
     padding-bottom: 2px;
     width: 4%;
-    margin-top: 4px;
-    margin-left: 1em;
   }
 
   .det {
@@ -817,7 +770,7 @@ li {
     flex-direction: column;
     width: 22em;
     align-items: center;
-    margin-left: 17em;
+    margin-left: 26em;
   }
 
   .image-alx {
@@ -825,7 +778,7 @@ li {
     flex-direction: column;
     width: 17em;
     align-items: center;
-    margin-right: 9em;
+    margin-right: 14em;
     margin-top: -14em;
   }
 
@@ -840,7 +793,6 @@ li {
     margin-top: 5em;
     height: 15em;
     width: 100%;
-    margin-left: 14px;
   }
 
   .border-0 {
@@ -854,6 +806,7 @@ li {
     font-weight: 400;
     color: black;
     width: 31em;
+    align-items: start;
     height: 11em;
     margin-top: 1em;
   }
@@ -866,7 +819,7 @@ li {
     color: black;
     width: 4em;
     margin-top: 71px;
-    margin-left: 163px;
+    margin-left: 1em;
   }
 
   .title-l1 {
@@ -875,9 +828,7 @@ li {
     font-size: 25px;
     font-weight: 400;
     color: rgb(248, 249, 250);
-    width: 9em;
-    margin-top: -56px;
-    margin-left: 284px;
+    margin-left: 7em;
   }
 
   .date-t1 {
@@ -886,9 +837,15 @@ li {
     font-size: 14px;
     font-weight: 400;
     color: #f8f9fa;
-    margin-top: -77px;
-    margin-left: 605px;
-    width: 30%;
+  }
+
+  .det1 {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
   }
 
   .text-img {
@@ -897,7 +854,7 @@ li {
     width: 100%;
     top: 3em;
     text-align: center;
-    margin-left: 6em;
+    margin-left: 11em;
     font-size: 20px;
     font-weight: 900;
     color: white;
@@ -908,7 +865,7 @@ li {
     width: 63%;
     top: 6em;
     text-align: center;
-    margin-left: 13em;
+    margin-left: 22em;
     font-size: 14px;
     font-weight: 500;
     color: white;
@@ -916,13 +873,13 @@ li {
 
   .text-img1 {
     position: absolute;
-    left: -28px;
     width: 100%;
     top: 3em;
     text-align: center;
     font-size: 20px;
     font-weight: 900;
     color: white;
+    margin-right: 11em;
   }
 
   .text-mo1 {
@@ -932,17 +889,14 @@ li {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    margin-right: 16em;
     color: white;
   }
 
   .summit-img {
     display: flex;
     flex-direction: column;
-    width: 40%;
     height: auto;
     align-items: center;
-    margin-left: 23em;
-    margin-top: 26px;
-    gap: 43px;
   }
 }

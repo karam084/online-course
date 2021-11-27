@@ -70,8 +70,8 @@ function showImage() {
   const elems = document.getElementsByClassName('showHide');
   for (let i = 0; i < elems.length; i += 1) {
     if (
-      elems[i].style.visibility === 'visible'
-      || elems[i].style.visibility === ''
+      elems[i].style.visibility === 'visible' ||
+      elems[i].style.visibility === ''
     ) {
       elems[i].style.visibility = 'hidden';
     } else if (elems[i].style.visibility === 'hidden') {
