@@ -490,7 +490,6 @@ li {
   .header {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
     flex-wrap: wrap;
     width: 100%;
     align-items: stretch;
