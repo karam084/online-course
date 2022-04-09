@@ -1,15 +1,14 @@
-![](https://github.com/karam084/online-course)
-
 # Project Name
 
 Online Course WebSite
 
-> One paragraph statement about the project.
+This project is for learning online courses.
+![Screenshot](https://user-images.githubusercontent.com/77942746/162586111-2502beea-6ac2-482d-b2a7-c6f402889858.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/162586130-2b3ebc86-8c45-404c-b992-94fbea697430.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/162586147-b9e8269c-6b66-48fb-8b0c-a3f329632494.png)
 
-[Screenshot](https://user-images.githubusercontent.com/77942746/143515573-2d75e63f-9fb0-44b5-a2dc-5f74920fea08.png)
 
 ## Built With
-
 - html and css
 - javascript
 - Visual studio and github
