@@ -2,7 +2,9 @@
 
 Online Course WebSite
 
-This project is for learning online courses.
+Online Course capstone project 
+This project is about online courses and the content of two pages Home page and the About page. This project works normally on Mobile apps and desktop versions.
+
 ![Screenshot](https://user-images.githubusercontent.com/77942746/162586111-2502beea-6ac2-482d-b2a7-c6f402889858.png)
 ![Screenshot](https://user-images.githubusercontent.com/77942746/162586130-2b3ebc86-8c45-404c-b992-94fbea697430.png)
 ![Screenshot](https://user-images.githubusercontent.com/77942746/162586147-b9e8269c-6b66-48fb-8b0c-a3f329632494.png)
